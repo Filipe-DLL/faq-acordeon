@@ -1,0 +1,45 @@
+@media (max-width: 990px) {
+    .faq {
+        margin-left: 9rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .faq {
+        margin-left: 0;
+        padding-top: 11.8rem;
+        height: 65.5rem;
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .faq .img {
+        left: auto;
+        top: -9rem;
+    }
+
+    .faq .container {
+        padding-left: 5rem;
+    }
+
+    .faq .container .duvida p {
+        display: none;
+        width: 95%;
+        font-size: 1.5rem;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 475px) {
+    .faq {
+        margin-top: 11rem;
+        margin-bottom: 4rem;
+    }
+    .faq .container {
+        padding: 1rem 3rem 3rem 3rem;
+    }
+    .faq .img {
+        width: 80%;
+    }
+}
