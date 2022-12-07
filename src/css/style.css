@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
 
 html {
     font-size: 62.5%;
@@ -65,7 +65,7 @@ body {
 
 }
 
-.faq .container .duvida i.selecionado {
+.faq .container .duvida.exibir i {
     color: #F14624;
     transform: rotate(90deg);
 }
@@ -77,8 +77,9 @@ body {
     font-weight: 300;
 }
 
-.faq .container .duvida p.selecionado {
+.faq .container .duvida.exibir p {
     display: block;
+    margin-top: 1.5rem;
 }
 
 .faq .container .duvida hr {
@@ -90,4 +91,5 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 2rem;
+    cursor: pointer;
 }
