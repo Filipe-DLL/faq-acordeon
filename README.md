@@ -1,5 +1,5 @@
 # faq-acordeon
 
-### Um projeto de um Slider de imagens do DevQuest - Dev em Dobro
+### Um projeto de um Acordeon do DevQuest - Dev em Dobro
 
 ## Link para <a href="https://filipe-dll.github.io/faq-acordeon/">Visualizar projeto</a>
