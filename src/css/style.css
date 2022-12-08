@@ -25,7 +25,6 @@ body {
     border-radius: 2.1rem;
     display: flex;
     align-items: center;
-
 }
 
 .faq .img {
@@ -57,12 +56,17 @@ body {
 .faq .container .duvida h2 {
     font-size: 1.7rem;
     font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.faq .container .duvida h2:hover {
+    color: #f47c57;
 }
 
 .faq .container .duvida i {
     color: #A6A6A6;
     font-size: 1.5rem;
-
+    transition:all 0.3s ease-in-out;
 }
 
 .faq .container .duvida.exibir i {
@@ -71,19 +75,24 @@ body {
 }
 
 .faq .container .duvida p {
-    display: none;
     width: 34.7rem;
     font-size: 1.5rem;
     font-weight: 300;
+    opacity: 0;
+    max-height: 0rem;
+    pointer-events: none;
+    transition: max-height 0.3s ease-in;
+    transition: opacity 0.3s ease-out;
 }
 
 .faq .container .duvida.exibir p {
-    display: block;
+    max-height: 4rem;
     margin-top: 1.5rem;
+    opacity: 1;
 }
 
 .faq .container .duvida hr {
-    margin-top: 1.5rem;
+    margin: 2rem 0;
 }
 
 .faq .container .duvida .duvida-header {
